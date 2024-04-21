@@ -1,0 +1,28 @@
+*
+
+#! ROOT folder
+!Makefile
+!.gitignore
+
+#! BIN folder
+!bin/
+# IGNORE all, blank folder only
+!bin/.gitkeep
+
+#! INCLUDE folder
+!include/
+# alow all .h and .hpp files
+!include/*.h
+!include/*.hpp
+
+#! SRC folder
+!src/
+# alow all .h and .hpp files
+!src/*.c
+!src/*.cpp
+
+#! CSES folder
+!CSES/
+# alow all .c and .cpp files
+!CSES/*.c
+!CSES/*.cpp

@@ -1,0 +1,2 @@
+cleanall:
+	rm bin/*
