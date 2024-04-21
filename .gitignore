@@ -3,6 +3,8 @@
 #! ROOT folder
 !Makefile
 !.gitignore
+!.github/
+!.github/*.md
 
 #! BIN folder
 !bin/
