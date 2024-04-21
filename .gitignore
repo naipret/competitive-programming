@@ -5,6 +5,8 @@
 !.gitignore
 !.github/
 !.github/*.md
+!.vscode/
+!.vscode/tasks.json
 
 #! BIN folder
 !bin/
