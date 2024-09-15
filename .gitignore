@@ -1,29 +1,9 @@
 *
 
 #! ROOT folder
-!Makefile
 !.gitignore
-!.github/
-!.github/*.md
-!.vscode/
-!.vscode/tasks.json
-
-#! BIN folder
-!bin/
-# IGNORE all, blank folder only
-!bin/.gitkeep
-
-#! INCLUDE folder
-!include/
-# alow all .h and .hpp files
-!include/*.h
-!include/*.hpp
-
-#! SRC folder
-!src/
-# alow all .h and .hpp files
-!src/*.c
-!src/*.cpp
+!LICENSE
+!README.md
 
 #! CSES folder
 !CSES/
