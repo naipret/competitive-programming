@@ -1,3 +1,2 @@
-## It includes solutions to both practice and contest problems from:
-- VNOI: https://wiki.vnoi.info
+- 28TECH: http://oj.28tech.com.vn/problems
 - CSES: https://cses.fi/problemset

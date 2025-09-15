@@ -1,12 +1,1 @@
-*
-
-#! ROOT folder
-!.gitignore
-!LICENSE
-!README.md
-
-#! CSES folder
-!CSES/
-# alow all .c and .cpp files
-!CSES/*.c
-!CSES/*.cpp
+*.exe
