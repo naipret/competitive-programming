@@ -1,5 +1,3 @@
-// https://github.com/naipret/competitive-programming/tree/main/28TECH
-
 #include <cmath>
 #include <iomanip>
 #include <iostream>

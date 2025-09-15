@@ -1,5 +1,3 @@
-// https://github.com/naipret/competitive-programming/tree/main/28TECH
-
 #include <iostream>
 
 using namespace std;
