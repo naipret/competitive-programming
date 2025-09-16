@@ -19,9 +19,9 @@ int main() {
   cin >> target_sum;
 
   int cnt = 0;
-  for (int ele_i = 0; ele_i < num; ele_i++) {
-    for (int ele_j = ele_i + 1; ele_j < num; ele_j++) {
-      if (vec[ele_i] + vec[ele_j] == target_sum) {
+  for (int idx_i = 0; idx_i < num; idx_i++) {
+    for (int idx_j = idx_i + 1; idx_j < num; idx_j++) {
+      if (vec[idx_i] + vec[idx_j] == target_sum) {
         cnt++;
       }
     }

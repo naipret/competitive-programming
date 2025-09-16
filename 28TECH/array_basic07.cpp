@@ -19,9 +19,9 @@ int main() {
   sort(vec.begin(), vec.end());
 
   int min_diff = vec[num - 1] - vec[0];
-  for (int ele = 1; ele < num; ele++) {
-    if ((vec[ele] - vec[ele - 1]) < min_diff) {
-      min_diff = vec[ele] - vec[ele - 1];
+  for (int idx = 1; idx < num; idx++) {
+    if ((vec[idx] - vec[idx - 1]) < min_diff) {
+      min_diff = vec[idx] - vec[idx - 1];
     }
   }
 

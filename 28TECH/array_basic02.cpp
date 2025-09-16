@@ -9,8 +9,8 @@ bool IsPrime(int val) {
   if (val < 2) {
     return false;
   }
-  for (int ele = 2; ele <= sqrt(val); ele++) {
-    if (val % ele == 0) {
+  for (int seq_val = 2; seq_val <= sqrt(val); seq_val++) {
+    if (val % seq_val == 0) {
       return false;
     }
   }

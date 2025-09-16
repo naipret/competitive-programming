@@ -10,7 +10,6 @@ int main() {
   cin >> que;
 
   int val_1, val_2;
-
   while (que--) {
     cin >> val_1 >> val_2;
     cout << val_1 + val_2 << '\n';

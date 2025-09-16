@@ -16,10 +16,10 @@ int main() {
   }
 
   int res_cnt = 0;
-  for (int ele = 0; ele < num; ele += 2) {
-    if (vec[ele] % 2 == 0) {
+  for (int idx = 0; idx < num; idx += 2) {
+    if (vec[idx] % 2 == 0) {
       res_cnt++;
-      cout << vec[ele] << ' ';
+      cout << vec[idx] << ' ';
     }
   }
   if (res_cnt == 0) {
