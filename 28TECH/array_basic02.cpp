@@ -9,11 +9,14 @@ bool IsPrime(int val) {
   if (val < 2) {
     return false;
   }
-  for (int seq_val = 2; seq_val <= sqrt(val); seq_val++) {
+
+  int loop_limit = static_cast<int>(sqrt(val));
+  for (int seq_val = 2; seq_val <= loop_limit; seq_val++) {
     if (val % seq_val == 0) {
       return false;
     }
   }
+
   return true;
 }
 
@@ -39,5 +42,5 @@ int main() {
   }
 
   cout << fixed << setprecision(3);
-  cout << sum_prime / double(prime_cnt);
+  cout << sum_prime / static_cast<double>(prime_cnt);
 }

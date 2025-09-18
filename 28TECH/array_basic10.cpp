@@ -8,11 +8,14 @@ bool IsPrime(int val) {
   if (val < 2) {
     return false;
   }
-  for (int ele = 2; ele <= sqrt(val); ele++) {
-    if (val % ele == 0) {
+
+  int loop_limit = static_cast<int>(sqrt(val));
+  for (int seq_val = 2; seq_val <= loop_limit; seq_val++) {
+    if (val % seq_val == 0) {
       return false;
     }
   }
+
   return true;
 }
 

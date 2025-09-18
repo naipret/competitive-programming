@@ -15,7 +15,8 @@ int main() {
     cin >> ele;
   }
 
-  int even_cnt = 0, odd_cnt = 0, sum_even = 0, sum_odd = 0;
+  int even_cnt = 0, odd_cnt = 0;
+  int sum_even = 0, sum_odd = 0;
   for (int ele : vec) {
     if (ele % 2 == 0) {
       even_cnt++;

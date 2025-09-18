@@ -1,6 +1,5 @@
 #include <algorithm>
 #include <iostream>
-#include <string>
 #include <vector>
 
 using namespace std;
@@ -18,7 +17,8 @@ istream& operator>>(istream& inp_stream, __int128& val) {
     start_idx = 1;
   }
 
-  for (int i = start_idx; i < int(str.length()); ++i) {
+  int loop_limit = static_cast<int>(str.length());
+  for (int i = start_idx; i < loop_limit; ++i) {
     if (str[i] < '0' || str[i] > '9') {
       val = 0;
       return inp_stream;
